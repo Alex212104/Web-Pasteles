@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tittle{
+    font-size: 2.5em;
+    margin-top: 0;
+}
+.windsong{
+    font-family: 'WindSong', cursive;
+}
+.pacifico{ /*letra del logo*/
+    font-family: 'Pacifico', cursive;
+}
+
+.main-header{
+    background-color: rgb(68, 144, 216);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 9px;
+}
+.nav-link{
+    color: white;
+    margin-right: -5px;
+    text-decoration: none;
+    width: 20vh;
+    display: inline-block;
+}
+.logo-header{
+    text-align: center;
+    margin-bottom: 0;
+}
+.text-logo{
+    color: cornflowerblue;
+    font-size: 60px;
+    margin-top: 0;
+
+}
+.main-container{
+    min-height: 100vh;
+}
+
+.pastel p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pastel h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pastel img{
+    width: 200px;
+    height: 150px;
+    margin-top: 0;
+}
+.card{
+    border-radius: 9px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    margin-top: 15px;
+}
+.card h3{
+    text-decoration-style: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.body{
+    padding: 60px 15px; /*arriba y abajo 60, derecha izquierda 15*/
+}
+.threeD{
+    text-shadow: 1px 3px 0px rgb(75, 76, 80), 1px 13px 5px rgb(14, 49, 206);
+}
+.delay-1{
+    animation-delay: 0.3s;
+}
+.delay-2{
+    animation-delay: 0.6s;
+}
+.delay-3{
+    animation-delay: 0.9s;
+}
+.delay-4{
+    animation-delay: 1.2s;
+}
+.delay-5{
+    animation-delay: 1.4s;
+}
+.delay-6{
+    animation-delay: 1.6s;
+}

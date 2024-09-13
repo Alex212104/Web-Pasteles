@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | Pasteleria Chalaca</title>
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+    <link rel="stylesheet" href="css/catalogo.css">
+</head>
+
+<body>
+    <div class="row main-container middle-xs center-xs">
+        <div class="col-md-8 col-sm-10 col-xs-11 col-lg-7">
+            <div class="box">
+                <div class="card animated fadeInRightBig">
+                    <header class="main-header">
+                        <nav class="main-nav">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                            <a href="catalogo.html" class="nav-link">Catálogo</a>
+                            <a href="nosotros.html"class="nav-link">Nosotros</a>
+                            <a href="contacto.html"class="nav-link">Contáctanos</a>
+                            <a href="login.php"class="nav-link">Iniciar Sesión</a>
+                        </nav>
+                    </header> 
+                    <div class="catalogo body animated fadeInRightBig">
+                            <header class="logo-header">
+                                <img src="/img/logo.jpeg" height="185px" alt="">
+                                <h1 class="text-logo pacifico title threeD">Pasteleria Chalaca</h1>
+                            </header>
+                            <hr>
+                            <div class="contenedor1" method="GET">
+                                <form action="" class="formulario1">
+                                    <input type="text" name= "caja" placeholder="Ingrese el título" class="buscador" value="<?php echo $caja; ?>">
+                                    <br>
+                                    <input type="submit" value="BUSCAR" class="boton1">
+                                </form>
+                            </div>
+                        <div class="pasteles">
+                            <div class="row center-xs">
+                                <div class="col-xs-10 col-sm-6 col-md-4 pastel animated fadeInDown delay-1">
+                                    <div class="card">
+                                        <img src="img/pasteles/1.jpg" alt="Primer pastel">
+                                        <h3>Pastel Candy</h3>
+                                        <p>S/. 50</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-10 col-sm-6 col-md-4 pastel animated fadeInDown delay-2">
+                                    <div class="card">
+                                        <img src="img/pasteles/2.jpg" alt="Segundo pastel">
+                                        <h3>Pastel Fresas</h3>
+                                        <p>S/. 70</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-10 col-sm-6 col-md-4 pastel animated fadeInDown delay-3">
+                                    <div class="card">
+                                        <img src="img/pasteles/3.jpg" alt="Tercer pastel">
+                                        <h3>Pastel Lentejitas</h3>
+                                        <p>S/. 45</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-10 col-sm-6 col-md-4 pastel animated fadeInDown delay-4">
+                                    <div class="card">
+                                        <img src="img/pasteles/4.jpg" alt="Cuarto pastel">
+                                        <h3>Pastel Infantil</h3>
+                                        <p>S/. 65</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-10 col-sm-6 col-md-4 pastel animated fadeInDown delay-5">
+                                    <div class="card">
+                                        <img src="img/pasteles/5.jpg" alt="Quinto pastel">
+                                        <h3>Pastel Simplón</h3>
+                                        <p>S/. 40</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-10 col-sm-6 col-md-4 pastel animated fadeInDown delay-6">
+                                    <div class="card">
+                                        <img src="img/pasteles/6.jpg" alt="Sexto pastel">
+                                        <h3>Pastel Bendición</h3>
+                                        <p>S/. 100</p> 
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
